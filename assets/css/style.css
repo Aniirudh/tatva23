@@ -550,7 +550,11 @@ h6 {
 
 @media(max-width:480px)
 {
-  #hero .tatva-logo, .tatva-logo-typo
+  #hero .tatva-logo 
+  {
+    width: 25vh;
+  }
+  #hero .tatva-logo-typo
   {
     width: 25vh;
   }
