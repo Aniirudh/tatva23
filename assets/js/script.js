@@ -35,11 +35,6 @@ if (isMobile()) {
 	}, 20000);
 }
 
-
-
-
-
-
 // Simulation section
 
 const canvas = document.getElementsByTagName('canvas')[0];
