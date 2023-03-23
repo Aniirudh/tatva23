@@ -749,7 +749,7 @@ h6 {
 }
 
 #calendar .box {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
     text-align: center;
