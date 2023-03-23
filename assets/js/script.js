@@ -35,6 +35,11 @@ if (isMobile()) {
 	}, 20000);
 }
 
+
+
+
+
+
 // Simulation section
 
 const canvas = document.getElementsByTagName('canvas')[0];
@@ -1371,7 +1376,7 @@ function correctRadius (radius) {
 	return radius;
 }
 
-canvas.addEventListener('mousedown', e => {//can change to mousedown
+canvas.addEventListener('mouseover', e => {//can change to mousedown
 	let posX = scaleByPixelRatio(e.offsetX);
 	let posY = scaleByPixelRatio(e.offsetY);
 	let pointer = pointers.find(p => p.id == -1);
