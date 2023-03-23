@@ -182,7 +182,13 @@ h6 {
   max-height: 60px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1210px) {
+  #header #logo img {
+    max-height: 50px;
+  }
+}
+
+@media (max-width: 540px) {
   #header #logo img {
     max-height: 30px;
   }
@@ -364,7 +370,7 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1200px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -386,7 +392,7 @@ h6 {
   transition: 0.5s;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -502,11 +508,6 @@ h6 {
     position: relative;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 
 #hero:before {
   content: "";
@@ -591,8 +592,8 @@ h6 {
 } */
 
 #hero .play-btn {
-  width: 94px;
-  height: 94px;
+  width: 80px;
+  height: 80px;
   background: radial-gradient(#2226f8 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
@@ -758,17 +759,17 @@ h6 {
   text-align: center;
   border-radius:10px; 
 }
-/* @media only screen and (max-width: 768px) {  Adjust the styles for tablets
+@media only screen and (max-width: 768px) {  Adjust the styles for tablets
     #calendar .box {
         flex-basis: calc(33.33% - 20px);
     }
 }
 
-@media only screen and (max-width: 480px) { Adjust the styles for mobile 
+@media only screen and (max-width: 540px) { Adjust the styles for mobile 
     #calendar .box {
         flex-basis: calc(50% - 20px);
     }
-} */
+}
 
 #header .countdown {
     margin-bottom: 80px;
