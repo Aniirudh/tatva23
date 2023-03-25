@@ -142,19 +142,21 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 90px;
+  height: 150px;
+  padding-bottom: 40px;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background-color: rgb(151, 151, 151);
+  background-image: linear-gradient(to bottom, rgb(184, 184, 184) 50%, rgba(255,199,195,0) );
 }
 
 #header.header-scrolled,
 #header.header-inner {
-  background: rgb(197, 197, 197);
+  padding-bottom: 0px;
+  background: rgb(251, 247, 253);
   height: 70px;
 }
 
@@ -264,7 +266,7 @@ h6 {
 
 .navbar>ul>li {
   white-space: nowrap;
-  padding: 10px 0 10px 12px;
+  padding: 20px 0 10px 12px;
 }
 
 .navbar a,
