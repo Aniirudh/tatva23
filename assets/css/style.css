@@ -1308,12 +1308,13 @@ h6 {
 
 #footer .copyright {
   text-align: center;
+  font-size: 10px;
   padding-top: 30px;
 }
 
 #footer .credits {
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #ddd;
   padding-bottom: 30px;
 }
